@@ -7,8 +7,10 @@ fruits.sort();
 // 2) Use the correct Array method to remove the last item of the fruits array.
 
 const fruitss = ["Banana", "Orange", "Apple"];
-fruitss.pop();
-// console.log(fruitss)
+
+// fruitss.pop();
+fruitss.shift();
+console.log(fruitss)
 
 // Use the correct Array method to add "Cheeku" to the fruits array.
 
@@ -20,4 +22,4 @@ fruitsss.push("Cheeku")
 
 const fruuits = ["Banana", "Orange", "Apple", "Kiwi"];
 fruuits.splice(2,3)
-console.log(fruuits)
+// console.log(fruuits)
